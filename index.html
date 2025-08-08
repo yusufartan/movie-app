@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film İzle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpeg" href="photo/movieIcon.jpg">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <form id="form">
+                <div class="inputWrapper">
+                    <input type="text" id="searchInput" placeholder="Film ara...">
+                    <span id="clearBtn" class="clearIcon">
+                        <!-- Circle-X SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </span>
+                </div>
+            </form>
+        </div>
+        
+        <div class="movies">
+
+        </div>
+
+        <div class="pagination">
+            <form id="paginationForm">
+                <button type="button" id="prevBtn"><i class="fa-solid fa-caret-left"></i> Prev</button>
+                <button type="button" id="nextBtn">Next <i class="fa-solid fa-caret-right"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
