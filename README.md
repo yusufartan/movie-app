@@ -31,7 +31,9 @@ Search for movies, browse popular ones, and view IMDB-like ratings instantly.
 <img width="1855" height="877" alt="image" src="https://github.com/user-attachments/assets/4d1cb02e-d7b7-4dc8-bd41-f605abbc8607" />
 <img width="1838" height="858" alt="image" src="https://github.com/user-attachments/assets/e3740fe5-fc7e-4382-b48e-a28f4a50b088" />
 
+## 🔗 Live Demo
 
+You can try the app here:  
+👉 [Movie Explorer Live](https://yusufartan.github.io/movie-app/)
 
-
-
+---
